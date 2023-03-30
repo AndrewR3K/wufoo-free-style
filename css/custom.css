@@ -34,15 +34,7 @@ html {
 html {
   background-color: #fff;
 }
-#logo {
-  background-color: #ebebeb;
-  padding: 11px;
-}
-#logo a {
-  background: url(https://www.oxial.com/wp-content/uploads/2016/02/OXIAL_logo.png)
-    left top no-repeat;
-  height: 35px;
-}
+
 #container {
   background: #fff;
   border: 0 solid #ccc;
@@ -127,7 +119,7 @@ form span.req {
   color: #2799ab !important;
 }
 #errorLi {
-  border: 1px solid #2799ab;
+  border: 1px solid #CF8C2A;
 }
 form p.error {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -183,9 +175,9 @@ form li.buttons {
   text-align: center;
 }
 .wufoo input.btTxt {
-  border: 1px solid #2799ab;
+  border: 1px solid #CF8C2A;
   border-radius: 2px;
-  background: #2799ab;
+  background: #CF8C2A;
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
@@ -233,4 +225,13 @@ form li.buttons {
 }
 #search:-ms-input-placeholder {
   color: blue;
+}
+
+.wufoo li {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.wufoo textarea {
+    width: 100%;
 }
