@@ -150,7 +150,6 @@ form li.error {
 }
 .wufoo select.select {
   background-color: #fff;
-  background-image: url(https://www.oxial.com/wp-content/uploads/2017/10/select-icon-2.png);
   background-position: 100% 0;
   background-repeat: no-repeat;
   background-size: 58px;
@@ -234,4 +233,8 @@ form li.buttons {
 
 .wufoo textarea {
     width: 100%;
+}
+
+.create-message {
+    display: none;
 }
