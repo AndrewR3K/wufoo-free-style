@@ -1,0 +1,236 @@
+
+#logo,
+html {
+  background-image: none;
+}
+.wufoo .info div,
+.wufoo .info h2,
+.wufoo .section div,
+.wufoo .section h3,
+.wufoo input.btTxt {
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+@font-face {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url(https://fonts.gstatic.com/s/montserrat/v10/zhcz-_WihjSQC0oHJ9TCYC3USBnSvpkopQaUR-2r7iU.ttf)
+      format("truetype");
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Open Sans Regular"), local("OpenSans-Regular"),
+    url(https://fonts.gstatic.com/s/opensans/v14/cJZKeOuBrn4kERxqtaUH3aCWcynf_cDxXwCLxiixG1c.ttf)
+      format("truetype");
+}
+.wufoo * {
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+html {
+  background-color: #fff;
+}
+#logo {
+  background-color: #ebebeb;
+  padding: 11px;
+}
+#logo a {
+  background: url(https://www.oxial.com/wp-content/uploads/2016/02/OXIAL_logo.png)
+    left top no-repeat;
+  height: 35px;
+}
+#container {
+  background: #fff;
+  border: 0 solid #ccc;
+}
+.wufoo .instruct {
+  background-color: #f5f5f5;
+  border: 1px solid #e6e6e6;
+}
+.wufoo .info {
+  border: none;
+  display: none;
+}
+.wufoo .info h2,
+.wufoo .section h3 {
+  color: #000;
+  font-family: inherit;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 60px;
+  position: relative;
+}
+.wufoo .info h2:after,
+.wufoo .section h3:after {
+  background-color: #27991b;
+  bottom: -30px;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+}
+.wufoo input.text,
+.wufoo input[type="text"],
+.wufoo select.select {
+  display: block;
+  height: 60px;
+  max-width: 100%;
+  padding: 10px 20px;
+  width: 100%;
+}
+.wufoo .info div,
+.wufoo .section div {
+  color: #3b3c3c;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0 0 32px;
+}
+.wufoo label.desc,
+.wufoo legend.desc,
+.wufoo li div,
+.wufoo li div label,
+.wufoo li span label {
+  color: #444;
+  font-family: inherit;
+}
+.wufoo label.desc,
+.wufoo legend.desc {
+  font-size: 95%;
+}
+.wufoo input.text,
+.wufoo label.choice,
+.wufoo select.select,
+.wufoo textarea.textarea {
+  color: #333;
+  font-family: inherit;
+  font-size: 100%;
+}
+.wufoo label.choice {
+  color: #444;
+}
+.wufoo .instruct {
+  font-size: 80%;
+  font-family: inherit;
+  color: #444;
+}
+#errorMsg b,
+#errorMsgLbl,
+form p.error,
+form span.req {
+  color: #2799ab !important;
+}
+#errorLi {
+  border: 1px solid #2799ab;
+}
+form p.error {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: normal !important;
+}
+form li.error .desc {
+  color: #444 !important;
+}
+#errorMsg b,
+form li.error {
+  background-color: #fff !important;
+}
+.wufoo input.text,
+.wufoo input[type="text"] {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  color: #ebebeb;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.6;
+  margin: 0 0 7px;
+}
+.wufoo input.text:focus,
+.wufoo input[type="text"]:focus {
+  border-color: #999;
+}
+.wufoo select.select {
+  background-color: #fff;
+  background-image: url(https://www.oxial.com/wp-content/uploads/2017/10/select-icon-2.png);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: 58px;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  overflow: hidden;
+  -webkit-appearance: none;
+}
+.wufoo li.focused,
+.wufoo select.select:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+  background-color: #fff;
+  border-color: #999;
+  outline: 0 !important;
+}
+form li.buttons {
+  text-align: center;
+}
+.wufoo input.btTxt {
+  border: 1px solid #2799ab;
+  border-radius: 2px;
+  background: #2799ab;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1 !important;
+  margin: 0 5px 5px 0;
+  outline: 0 !important;
+  padding: 14px 20px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  -webkit-appearance: button;
+  width: auto;
+}
+.wufoo ::-webkit-input-placeholder {
+  color: #7e7e7e;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+}
+.wufoo ::-moz-placeholder {
+  color: #7e7e7e;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+  opacity: 1;
+}
+.wufoo :-ms-input-placeholder {
+  color: #7e7e7e !important;
+  font-size: 18px !important;
+  font-style: italic;
+  font-weight: 300 !important;
+}
+.wufoo :-moz-placeholder {
+  color: #7e7e7e;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 300;
+  opacity: 1;
+}
+#search::-moz-p {
+  color: red;
+}
+#search:-ms-input-placeholder {
+  color: blue;
+}
