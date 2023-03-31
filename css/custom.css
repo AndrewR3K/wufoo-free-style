@@ -116,7 +116,7 @@ html {
 #errorMsgLbl,
 form p.error,
 form span.req {
-  color: #2799ab !important;
+  color: #CF8C2A !important;
 }
 #errorLi {
   border: 1px solid #CF8C2A;
@@ -173,6 +173,7 @@ textarea:focus {
 form li.buttons {
   text-align: center;
 }
+
 .wufoo input.btTxt {
   border: 1px solid #CF8C2A;
   border-radius: 2px;
