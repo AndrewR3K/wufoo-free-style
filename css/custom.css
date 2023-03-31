@@ -246,6 +246,6 @@ form li.buttons {
     padding-left: 10px;
 }
 
-.phone-content input {
-    width: 29%;
+.phone-content span:nth-child(even) {
+    width: calc(33% - 28px);
 }
