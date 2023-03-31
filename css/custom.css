@@ -245,3 +245,7 @@ form li.buttons {
     line-height: 135%;
     padding-left: 10px;
 }
+
+.phone-content input {
+    width: 29%;
+}
