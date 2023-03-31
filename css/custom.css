@@ -250,3 +250,14 @@ form li.buttons {
 .phone-content span:nth-child(even) {
     width: calc(33% - 28px);
 }
+
+input, textarea {
+    border-radius: 4px !important;
+}
+
+textarea.textarea {
+    border-top: 1px solid #fff;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    border-bottom: 1px solid #ddd;
+}
