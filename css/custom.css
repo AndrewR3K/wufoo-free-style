@@ -238,3 +238,10 @@ form li.buttons {
 .create-message {
     display: none;
 }
+
+
+.phone-content span.symbol {
+    font-size: 311%;
+    line-height: 135%;
+    padding-left: 10px;
+}
