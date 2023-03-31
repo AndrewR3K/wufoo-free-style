@@ -261,3 +261,16 @@ textarea.textarea {
     border-right: 1px solid #c3c3c3;
     border-bottom: 1px solid #ddd;
 }
+
+.embed .confirm .create-message {
+    display: block;
+    font-size: 20px;
+    color: #CF8C2A !important;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.start-cta {
+    background: #CF8C2A !important;
+}
